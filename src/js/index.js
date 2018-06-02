@@ -1,10 +1,6 @@
-import str from "./models/Search";
-// import { add as a, mult as m } from "./views/searchView";
-import * as searchView from "./views/searchView";
+async function getResults(query) {}
 
-console.log(
-  `${str}. ${searchView.add(
-    searchView.ID,
-    3
-  )} is the add function. ${searchView.mult(5, 5)} is the multiply function.`
-);
+getResults();
+
+//http://food2fork.com/api/search
+//cd53e8c06b1860ce99b42fd2f4db55ce;
