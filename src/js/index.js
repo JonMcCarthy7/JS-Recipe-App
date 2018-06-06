@@ -30,7 +30,6 @@ const controlSearch = async () => {
   if (query) {
     // 2. New search object and add to state
     state.search = new Search(query);
-    console.log(query);
 
     // 3. Prepare UI for results
     searchView.clearInput();
@@ -76,7 +75,6 @@ elements.searchResPages.addEventListener("click", e => {
 const controlRecipe = async () => {
   // Get ID from url
   const id = window.location.hash.replace("#", "");
-  console.log(id);
 
   if (id) {
     // Prepare UI for changes
